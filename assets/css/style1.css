@@ -20,11 +20,15 @@
 
     pointer-events: none;
 }
+.n1{
+  margin-left: 607px;
+}
 .text-right1{
   margin-right:-50px;
 }
 .d-block{
   height: 400px;
+  width: 1308px;
 }
 .slider-wrap {
   width: 100%;
@@ -76,7 +80,9 @@ animation-timing-function: ease-in-out;
     margin-bottom: 88px;
      margin-top:40px;
     background-color: white;
+     box-shadow: 10px 8px 21px #ece5e5;
 }
+
 .ic{
   font-size: 48px;
     padding-bottom: 35px;
@@ -414,20 +420,20 @@ button{
   margin-bottom: 10px;
 }
 
-.h2
+.head
 {
-  color:#030c0e;
+  color:white;
   text-align: center;
-  margin-bottom: 50px;
+  margin-bottom: 30px;
   
 
 }
-.h6
+.head1
 {
   text-align: center;
   margin-bottom: 50px;
   margin-left:50px;
-   color:#030c0e;
+   color:white;
 
 }
 
@@ -581,6 +587,12 @@ footer{
     
       height:50%;
     }
+    .n1{
+  margin-left: 0px;
+   }
+   .navbar-toggler{
+     margin-left:152px;
+   }
     .d-block {
         height: 285px;
     }
@@ -588,8 +600,12 @@ footer{
       width:100%;
       height:50%;
     }
-        .heading{
-      margin-left:14px;
+    .heading{
+      
+      font-size: 0.75rem;
+    }
+    .head{
+       font-size: 1.5rem;
     }
     .hovereffect img {
     display: block;
@@ -622,7 +638,12 @@ footer{
     margin-top: -20px;
     margin-left: 60px;
 }
-     
+.d-block{
+  height: 400px;
+  width: 320px;
+}
+
+  
 }
 @media only screen and (max-width:1500px) {
 .heading{
